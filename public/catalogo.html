@@ -1,0 +1,37 @@
+<!-- catalogo.html -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Relojes</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <button onclick="cerrarSesion()">Cerrar sesión</button>
+      <button onclick="mostrarModal()">chart</button>
+    </ul>
+  </nav>
+  <h1>Catálogo de Relojes</h1>
+
+  <div id="productos-container"></div>
+  <div id="modal" class="modal">
+
+    <h2>Carrito de Compras<button id="closeButton">X</button></h2>
+    
+    <div id="carrito-container"></div>
+
+    <div id="carrito-footer">
+      <button onclick="pagar()">Pagar</button>
+      <button onclick="pagar()">Vaciar carrito</button>
+    </div>
+  </div>
+
+  <script src="js/catalogo.js"></script>
+</body>
+
+</html>

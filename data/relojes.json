@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nombre": "Reloj Clásico",
+    "precio": 250,
+    "imagen": "reloj1.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Reloj Deportivo",
+    "precio": 500,
+    "imagen": "reloj2.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Reloj Inteligente",
+    "precio": 1000,
+    "imagen": "reloj3.jpg"
+  }
+]
